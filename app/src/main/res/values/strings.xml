@@ -18,4 +18,6 @@
     <string name="congratulations">Congratulations!</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="next_match">Next Match</string>
+    <string name="play">Play</string>
 </resources>
