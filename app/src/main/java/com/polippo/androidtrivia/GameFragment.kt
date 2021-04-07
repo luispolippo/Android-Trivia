@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import com.polippo.androidtrivia.databinding.FragmentGameBinding
 
 class GameFragment: Fragment() {
@@ -80,10 +81,10 @@ class GameFragment: Fragment() {
                         setQuestion()
                         binding.invalidateAll()
                     } else {
-                        //We've won navigate to the gameWonFragment
+                        view.findNavController().navigate(R.id.action_gameFragment_to_gameWonFragment)
                     }
                 } else {
-                    //Game Over! A wrong answer send us to the gameOverFragment.
+                    view.findNavController().navigate(R.id.action_gameFragment_to_gameOverFragment2)
                 }
             }
         }
