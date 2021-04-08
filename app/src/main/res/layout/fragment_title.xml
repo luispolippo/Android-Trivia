@@ -18,7 +18,7 @@
             android:paddingStart="@dimen/button_padding"
             android:paddingEnd="@dimen/button_padding"
             android:text="@string/play"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/white"
             android:textSize="@dimen/button_text_size"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
